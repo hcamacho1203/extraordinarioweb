@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Simulado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Simulado</h1>
+    </header>
+    <main>
+        <!-- Sección para mostrar las publicaciones -->
+        <section id="publicaciones">
+            <h2>Publicaciones</h2>
+            <ul id="lista-publicaciones">
+            </ul>
+            <div id="paginacion">
+                <!-- botones de paginación publicaciones -->
+            </div>
+        </section>
+        <!-- detalles publicación y comentarios -->
+        <section id="detalles-publicacion" style="display:none;">
+            <h2 id="titulo-detalle"></h2>
+            <p id="cuerpo-detalle"></p>
+
+            <h3>Comentarios</h3>
+            <ul id="lista-comentarios">
+                <!-- comentarios -->
+            </ul>
+            <div id="paginacion-comentarios">
+            </div>
+            <!-- Botón para regresar a la lista de publicaciones -->
+            <button id="boton-volver">Volver a Publicaciones</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
